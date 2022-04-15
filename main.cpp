@@ -18,6 +18,15 @@ int main(){
         
     std::cout << "The range for long is from " << std::numeric_limits<long>::min() << " to " 
         << std::numeric_limits<long>::max() << std::endl;
+
+    std::cout << "The range for unsigned long is from " << std::numeric_limits<unsigned long>::min() << " to " 
+        << std::numeric_limits<unsigned long>::max() << std::endl;
+
+    std::cout << "The range for long long is from " << std::numeric_limits<long long>::min() << " to " 
+        << std::numeric_limits<long long>::max() << std::endl;
+
+    std::cout << "The range for unsigned long long is from " << std::numeric_limits<unsigned long long>::min() << " to " 
+        << std::numeric_limits<unsigned long long>::max() << std::endl;
         
     std::cout << "The range for float is from " << std::numeric_limits<float>::min() << " to " 
         << std::numeric_limits<float>::max() << std::endl;
